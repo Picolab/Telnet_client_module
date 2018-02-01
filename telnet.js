@@ -2,7 +2,7 @@ var Telnet = require('telnet-client');
 var connection =  new Telnet();
  
 var params = {
-  host: '10.5.164.249',
+  host: '',
   port: 23,
   shellPrompt: 'QNET>',
   //shellPrompt: '/ # ',
