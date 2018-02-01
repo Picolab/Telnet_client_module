@@ -1,0 +1,17 @@
+{
+    "name": "krl_telnet",
+    "private": true,
+    "dependencies": {
+        "pico-engine": "^0.44.1",
+        "telnet-client": "^0.15.5"
+    },
+    "scripts": {
+        "start": "pico-engine"
+    },
+    "pico-engine": {
+        "port": 4080,
+        "modules": {
+            "telnet": "./telnet.js"
+        }
+    }
+}
